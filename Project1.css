@@ -53,17 +53,19 @@ li a:hover {
 
 .porttext h1{
     text-align: left;
-    left: 10px;
-	font-size:  2.5em;
+    margin-left: 25px;
+	font-size:  2.4em;
 	font-weight: 550;
 	margin-bottom:0px;
 }
 
 .porttext p{
     text-align: left;
-	font-size:  1.3em;
+	font-size:  1em;
 	font-weight: 500;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
+    margin-left: 30px;
+    margin-top: -15px
 }
 
 .portfolio{
@@ -71,10 +73,6 @@ li a:hover {
 }
 
 
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
 
 div.video video{
    position: initial;
