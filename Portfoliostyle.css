@@ -1,0 +1,132 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.backimage{
+	width: 100%;
+	height: 100vh;
+	background-image: url('background.jpg');
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: black;
+}
+
+.portfolio{
+	width: 100%;
+    height: 80%;
+	background-color: rgba(255,255,255,0.75);
+	padding: 30px 0;
+	font-family: 'Karla', sans-serif;
+}
+
+.porttext h1{
+	font-size:  2.5em;
+	font-weight: 550;
+	margin-bottom: 7px;
+}
+
+.porttext p{
+	font-size:  1.3em;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+
+
+.portfolio{
+    margin: 2%;
+}
+
+.card{
+    width: 20%; 
+    height: 37%;
+    background-color: lightgray;
+    display: inline-block;
+    opacity: 80%;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px;
+    margin: 2%;
+}
+
+
+.image img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    
+}
+
+.title{
+    text-align: center;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+    
+}
+
+h1{
+    font-size: 20px;
+    
+}
+
+.button a:link, a:visited{
+  position: relative;
+    top:20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:8px;
+  text-decoration: none;
+  text-decoration-color: black;
+       
+}
+
+.button a:hover, a:active{
+  background-color: black;
+  color: white;
+  transition: .3s;
+  cursor: pointer;
+    text-decoration: none:
+    text-decoration-color: black;
+}
+
+
+
+    

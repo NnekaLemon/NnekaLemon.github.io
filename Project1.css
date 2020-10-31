@@ -1,0 +1,113 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.backimage{
+	width: 100%;
+	height: 100vh;
+	background-image: url('background.jpg');
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: black;
+}
+
+.portfolio{
+	width: 100%;
+    height: 90%;
+	background-color: rgba(255,255,255,0.75);
+	padding: 30px 0;
+	font-family: 'Karla', sans-serif;
+}
+
+.porttext h1{
+    text-align: left;
+    left: 10px;
+	font-size:  2.5em;
+	font-weight: 550;
+	margin-bottom:0px;
+}
+
+.porttext p{
+    text-align: left;
+	font-size:  1.3em;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.portfolio{
+    margin: 2%;
+}
+
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+div.video video{
+   position: initial;
+   display: block;
+    float: left;
+    width: 30%;
+    height: 40%;
+    margin: 20px; 
+}
+
+div.Pgaller{
+   float: center;
+    margin-top: 3px;
+    margin-left: 5px;
+    
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+    
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
+    
